@@ -1,25 +1,25 @@
 {
     "format_version": 2,
-    "tooth": "my-mod",
-    "version": "0.0.0",
+    "tooth": "github.com/lwenk/KeepInventory",
+    "version": "0.1.0",
     "info": {
-        "name": "My Mod Name",
-        "description": "My Mod Description",
-        "author": "My Name",
+        "name": "KeepInventory",
+        "description": "KeepInventory",
+        "author": "lwenk",
         "tags": [
             "platform:levilamina",
             "type:mod"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/lwenk/KeepInventory/releases/download/v0.1.0/KeepInventory-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": "1.0.x"
     },
     "files": {
         "place": [
             {
-                "src": "my-mod/*",
-                "dest": "plugins/my-mod/"
+                "src": "KeepInventory/*",
+                "dest": "plugins/KeepInventory/"
             }
         ]
     }

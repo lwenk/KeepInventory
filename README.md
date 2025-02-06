@@ -1,35 +1,41 @@
-# LeviLamina Mod Template
+# KeepInventory
 
-A LeviLamina mod template
+Minecraft基岩版服务器 指定区域死亡不掉落
 
-This mod is a template for developing LeviLamina mods.
+## 安装
 
-## Install
+### 使用 Lip
 
-Generate a new repository from this template.
+```sh
+lip install github.com/lwenk/KeepInventory
+```
 
-## Usage
+### 手动安装
 
-Before using this mod template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
+1. 从[发布页面](https://github.com/lwenk/KeepInventory/releases)下载最新版本。
+2. 解压`KeepInventory-windows-x64.zip`文件。
+3. 将`KeepInventory`文件夹复制到 BDS 安装目录下的 plugins 文件夹中。
 
-1. Clone the new repository into a local folder.
+## 使用
 
-1. Change the mod name and the expected LeviLamina version in `xmake.lua`.
+1. 安装插件
+2. 启动服务器 `bedrock_server_mod.exe`
+3. 修改配置文件 `./plugins/KeepInventory/config.json`
+4. 重启服务器
 
-1. Add your code.
+### 配置文件(示例)
 
-1. Run `xmake repo -u` in the root of the repository.
+```json
+{
 
-1. Run `xmake` to build the mod.
+}
+```
 
-Now the build is complete at `bin/`.
+## 贡献
 
-## Contributing
+欢迎参与贡献！
+你可以[提出问题](https://github.com/lwenk/Stats/issues/new/choose)或提交拉取请求。
 
-Ask questions by creating an issue.
+## 许可证
 
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+AGPL-3.0 © LWenK
